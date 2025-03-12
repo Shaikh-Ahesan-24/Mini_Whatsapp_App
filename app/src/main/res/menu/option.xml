@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/group" android:title="@string/group"/>
+    <item android:id="@+id/broad" android:title="@string/broad"/>
+    <item android:id="@+id/link" android:title="@string/device"/>
+    <item android:id="@+id/start" android:title="@string/star"/>
+    <item android:id="@+id/payment" android:title="@string/payment"/>
+    <item android:id="@+id/setting" android:title="@string/setting"/>
+</menu>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+     android:orientation="vertical"
+      android:id="@+id/pop"
+    android:layout_gravity="center_horizontal"
+       android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/dp"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:src="@drawable/darshan"
+                    android:contentDescription="@string/hii"
+                    android:scaleType="fitXY"/>
+                   <LinearLayout
+                       android:padding="15dp"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       tools:ignore="UselessLeaf">
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/baseline_chat_24"
+                             android:contentDescription="@string/darshan"  />
+                            <ImageView
+                                android:layout_marginStart="25dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                    android:src="@drawable/baseline_call_24"
+                                    android:contentDescription="@string/hii"/>
+                               <ImageView
+                                   android:layout_marginStart="25dp"
+                                   android:layout_width="wrap_content"
+                                   android:layout_height="wrap_content"
+                                       android:src="@drawable/baseline_photo_camera_24"
+                                       android:contentDescription="@string/device"/>
+                            <ImageView
+                                android:layout_marginStart="25dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                    android:src="@drawable/baseline_info_24"
+                                    android:contentDescription="@string/hii"/>
+
+
+                   </LinearLayout>
+
+
+</LinearLayout>
